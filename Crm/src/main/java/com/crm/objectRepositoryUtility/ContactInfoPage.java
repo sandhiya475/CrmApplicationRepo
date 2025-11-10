@@ -14,6 +14,16 @@ public class ContactInfoPage {
   @FindBy(xpath="//span[@class='dvHeaderText']")
   private WebElement contactInfo;
  
+  @FindBy(xpath="//span[@class='dvHeaderText']")
+  private WebElement contactInfoTrial;
+  
+  public WebElement getContactInfoTrial() {
+	return contactInfoTrial;
+}
+
+  public void setContactInfoTrial(WebElement contactInfoTrial) {
+	this.contactInfoTrial = contactInfoTrial;
+  }
   @FindBy(id="dtlview_Support Start Date")
   private WebElement supportStartDateInfo;
   
