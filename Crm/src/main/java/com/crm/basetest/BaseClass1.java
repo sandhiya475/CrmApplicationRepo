@@ -81,5 +81,6 @@ public class BaseClass1 {
 	public void configAS() throws Throwable {
 		Reporter.log("---Close DB,Report Backup---",true);
 		dutil.closeDBconnection();
+		System.out.println("DB connection closed successfully");
 	}
 }
