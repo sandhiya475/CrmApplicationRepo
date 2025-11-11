@@ -29,6 +29,9 @@ public class HomePage {
 	@FindBy(linkText = "More")
 	private WebElement moreLink;
 	
+	@FindBy(linkText = "More")
+	private WebElement moreLink1;
+	
 	@FindBy(linkText = "Services")
 	private WebElement servicesLink;
 	
@@ -81,6 +84,10 @@ public class HomePage {
 
 	public WebElement getMoreLink() {
 		return moreLink;
+	}
+	
+	public WebElement getMoreLink1() {
+		return moreLink1;
 	}
 
 	public WebElement getServicesLink() {
